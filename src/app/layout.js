@@ -1,7 +1,7 @@
 import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
 
 const hankenGrotesk = Hanken_Grotesk({
   subsets: ["latin"],
