@@ -1,5 +1,7 @@
 import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const hankenGrotesk = Hanken_Grotesk({
   subsets: ["latin"],
@@ -15,7 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full antialiased">
       <body className={`${hankenGrotesk.className} min-h-full flex flex-col`}>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
