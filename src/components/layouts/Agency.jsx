@@ -1,13 +1,6 @@
 import React from "react";
 import Container from "../Container";
 import Image from "next/image";
-import agencyIconOne from "../../../public/agencyIconOne.png";
-import agencyIconTwo from "../../../public/agencyIconTwo.png";
-import agencyIconThr from "../../../public/agencyIconThr.png";
-import agencyOne from "../../../public/agencyOne.png";
-import agencyTwo from "../../../public/agencyTwo.png";
-import agencyThr from "../../../public/agencyThr.png";
-import agencyFor from "../../../public/agencyFor.png";
 
 export default function Agency() {
   return (
@@ -27,7 +20,7 @@ export default function Agency() {
             <div className="flex items-start gap-x-5 border-b-2 border-[#EAF0EC]">
               <div className="bg-[#EAF0EC] w-15 h-15 rounded-full relative">
                 <Image
-                  src={agencyIconOne}
+                  src={"/agencyIconOne.png"}
                   alt="One"
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   width={26}
@@ -48,7 +41,7 @@ export default function Agency() {
             <div className="flex items-start gap-x-5 border-b-2 border-[#EAF0EC]  pt-5">
               <div className="bg-[#EAF0EC] w-15 h-15 rounded-full relative">
                 <Image
-                  src={agencyIconTwo}
+                  src={"/agencyIconTwo.png"}
                   alt="Two"
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   width={26}
@@ -70,7 +63,7 @@ export default function Agency() {
             <div className="flex items-start gap-x-5 pt-5">
               <div className="bg-[#EAF0EC] w-15 h-15 rounded-full relative">
                 <Image
-                  src={agencyIconThr}
+                  src={"/agencyIconThr.png"}
                   alt="Thr"
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   width={26}
@@ -92,10 +85,10 @@ export default function Agency() {
             </div>
           </div>
           <div className="flex flex-wrap gap-5 justify-end">
-            <Image src={agencyOne} alt="AOne" width={390} height={295} />
-            <Image src={agencyTwo} alt="ATwo" width={290} height={295} />
-            <Image src={agencyThr} alt="AThr" width={460} height={340} />
-            <Image src={agencyFor} alt="AFor" width={220} height={340} />
+            <Image src={"/agencyOne.png"} alt="AOne" width={390} height={295} />
+            <Image src={"/agencyTwo.png"} alt="ATwo" width={290} height={295} />
+            <Image src={"/agencyThr.png"} alt="AThr" width={460} height={340} />
+            <Image src={"/agencyFor.png"} alt="AFor" width={220} height={340} />
           </div>
         </div>
       </Container>
