@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
     <footer>
-      <div className="pt-17.5 pb-10 bg-[#192324] mt-2">
+      <div className="pt-17.5 pb-10 bg-jprimary mt-2">
         <Container>
           <div className="flex flex-col gap-5 lg:gap-0 md:flex-row justify-between items-center border-b border-white/10 pb-7.5">
             <Image src="/footerLogo.png" alt='footerLogo' height={86.44} width={182}/>
