@@ -6,7 +6,7 @@ export default function Agency() {
   return (
     <section className="bg-[#F8F8F8] lg:py-25 py-13">
       <Container>
-        <div className="flex items-center flex-col lg:flex-row">
+        <div className="flex items-center justify-center gap-10 lg:gap-0 flex-col md:flex-row">
           <div className="">
             <h3 className="lg:text-[46px] text-3xl text-[#192324] font-bold lg:leading-12.5 leading-8 lg:w-120 w-70">
               A behind the scenes look at

@@ -10,14 +10,14 @@ export default function Header() {
         <>
         <header className='lg:fixed lg:top-0 lg:left-0 lg:w-full'>
             <Container>
-                <div className="py-5 flex flex-col lg:flex-row gap-5 justify-between items-center border-b border-white/10">
+                <div className="md:py-5 flex flex-col md:flex-row gap-5 justify-between items-center border-b border-white/10">
                     {/* logo */}
                     <div className="logo">
                         <Image src={logo} alt='logo'/>
                     </div>
                     {/* navbar */}
                     <nav>
-                        <ul className='flex flex-col lg:flex-row gap-10 items-center gap-x-10'>
+                        <ul className='flex flex-col md:flex-row gap-10 items-center gap-x-10'>
                             <li className='text-white text-base cursor-pointer hover:text-btn duration-300'>Home</li>
                             <li className='text-white text-base cursor-pointer hover:text-btn duration-300'>Services</li>
                             <li className='text-white text-base cursor-pointer hover:text-btn duration-300'>Portfolio</li>
@@ -27,7 +27,7 @@ export default function Header() {
                         </ul>
                     </nav>
                     {/* button */}
-                    <Button btnText={'Contact Us'} rightIcon={<FaArrowRight />} />
+                    <Button btnText={'Contact Us'} rightIcon={<FaArrowRight />} className={'w-38'}/>
                 </div>
             </Container>
         </header>
