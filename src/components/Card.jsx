@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const Card = ({ image, title, description, showArrow = false }) => {
   return (
-    <div className="relative w-101.5 h-130.5 overflow-hidden cursor-pointer group">
+    <div className="relative lg:w-101.5 w-72 h-90 lg:h-130.5 overflow-hidden cursor-pointer group">
 
       {/* Image */}
       <Image
@@ -43,12 +43,12 @@ export const Card = ({ image, title, description, showArrow = false }) => {
 
       {/* Text Overlay */}
       <div
-        className="absolute bottom-0 left-0 right-0 z-20 px-9.5 py-10"
+        className="absolute bottom-0 left-0 right-0 z-20 lg:px-9 px-6 py-10"
         style={{
           background: 'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.3) 60%, transparent 100%)',
         }}
       >
-        <p className="text-white font-bold text-[20px] mb-1.5 ">
+        <p className="text-white font-bold text-[20px]  mb-1.5 ">
           {title}
         </p>
         <p className="text-white text-base leading-relaxed m-0 ">

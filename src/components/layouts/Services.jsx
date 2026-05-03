@@ -56,7 +56,7 @@ export const Services = () => {
       <div className="py-12.5">
         <Container>
           <div className="">
-            <h2 className="font-bold text-[46px] text-[#192324]">
+            <h2 className="font-bold lg:text-[46px] text-[26px] text-[#192324] pb-4">
               Innovative Design Services for{" "}
               <span className="text-[#00517a]">Every Need</span>{" "}
             </h2>
@@ -74,7 +74,7 @@ export const Services = () => {
               needs.
             </p>
           </div>
-          <div className="py-5  grid grid-cols-3 gap-6.25">
+          <div className="py-5  grid lg:grid-cols-3 grid-cols-1 gap-6.25">
             {servicesCard.map((service, index) => (
               <Card
                 kay={index}
