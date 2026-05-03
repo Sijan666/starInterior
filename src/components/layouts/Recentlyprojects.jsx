@@ -12,7 +12,7 @@ export default function Recentlyprojects() {
     {
       id: 1,
       title: "Modern Home Interior Project - Agargaon",
-      videoUrl: "https://www.youtube.com/embed/watch?v=JFlxHbwiKJI",
+      videoUrl: "https://www.youtube.com/embed/watch?v=jQ_itUk9QOA&t=5s",
       thumbnail:
         "https://i.ytimg.com/vi/x1R2JAAWrgM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBSC5kPQJQru7j9XSj4oDUEJXMqDw",
     },
@@ -62,44 +62,42 @@ export default function Recentlyprojects() {
   const [selectedVideo, setSelectedVideo] = useState(projects[0].videoUrl);
 
   return (
-    <section className="bg-[#F8F8F8] py-[100px]">
+    <section className="bg-[#F8F8F8] py-12.5 lg:py-25">
       <Container>
-        <h3 className="text-jprimary text-[46px] font-bold w-[550px] leading-[50.6px]">
+        <h3 className="text-jprimary text-[30px] lg:text-[46px] font-bold lg:w-137.5 leading-7.5 lg:leading-[50.6px]">
           Our Recently Completed <span className="text-btn">Projects</span>
         </h3>
-        <p className="text-[#283132] text-base font-bold leading-[27.2px] my-5 w-330">
+        <p className="text-[#283132] text-base font-bold leading-[27.2px] my-5 lg:w-330">
           From concept to completion, our interior design projects demonstrate
           thoughtful planning, precise execution, and long-lasting
           quality—reflecting the standards of the best interior design company
           in Bangladesh while delivering stylish, functional, and innovative
           interior design solutions for every space.
         </p>
-
         {/* Providing Each Project Review */}
         <div className="flex items-center gap-x-5 group border-b border-[#EAF0EC] pb-5">
-          <div className="relative p-[17px] bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white">
+          <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
             <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
-            <div className="relative z-10">
+            <div className="relative z-10 flex items-center justify-center">
               <CiVideoOn size={24} />
             </div>
           </div>
-          <div>
+          <div className="">
             <h4 className="text-jprimary text-xl font-bold">
               Providing Each Project Review
             </h4>
-            <p className="text-[#283132] text-base">
+            <p className="text-[#283132] text-base ">
               We provide a comprehensive review of each completed project,
               highlighting our design approach, functionality, and quality
               craftsmanship.
             </p>
           </div>
         </div>
-
         {/* Every Inch Covered */}
         <div className="flex items-center gap-x-5 group my-5 border-b border-[#EAF0EC] pb-5">
-          <div className="relative p-[17px] bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white">
+          <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
             <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
-            <div className="relative z-10">
+            <div className="relative z-10  flex items-center justify-center">
               <IoPlayForwardOutline size={24} />
             </div>
           </div>
@@ -114,7 +112,6 @@ export default function Recentlyprojects() {
             </p>
           </div>
         </div>
-
         {/* Video Section Area */}
         <div className="mt-10">
           <h4 className="text-black text-base font-bold uppercase mb-3">
@@ -124,7 +121,7 @@ export default function Recentlyprojects() {
           <div className="flex flex-col lg:flex-row border border-gray-200 overflow-hidden rounded-sm">
             {/* Left: List Container */}
             <div className="w-full lg:w-[400px] bg-white border-r border-gray-200">
-              <div className="max-h-[450px] overflow-y-scroll custom-scrollbar bg-white">
+              <div className="max-h-112.5 overflow-y-scroll custom-scrollbar bg-white">
                 {projects.map((project) => (
                   <button
                     key={project.id}
@@ -133,7 +130,7 @@ export default function Recentlyprojects() {
                       selectedVideo === project.videoUrl ? "bg-gray-100" : ""
                     }`}
                   >
-                    <div className="w-24 h-16 bg-gray-200 flex-shrink-0 relative">
+                    <div className="w-24 h-16 bg-gray-200 shrink-0 relative">
                       <img
                         src={project.thumbnail}
                         alt="thumb"
@@ -152,7 +149,7 @@ export default function Recentlyprojects() {
             </div>
 
             {/* Right: Video Player Section */}
-            <div className="flex-1 bg-black aspect-video lg:h-[450px]">
+            <div className="mt-5 lg:mt-0 bg-black aspect-video lg:h-112.5">
               <iframe
                 key={selectedVideo}
                 width="100%"
