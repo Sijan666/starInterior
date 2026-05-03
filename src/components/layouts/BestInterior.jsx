@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function BestInterior() {
   return (
-    <>
+    <div className="">
       <Container>
         {/* First Part */}
-        <h3 className="text-[#192324] text-[46px] font-bold leading-12.5 text-center pt-2.5 pb-5">
+        <h3 className="text-[#192324] text-[26px] md:text-[36px] font-bold md:leading-12.5 text-center pt-2.5 pb-5">
           Best Interior Design Company in Bangladesh
         </h3>
         <div className="text-[#283132] text-base leading-6.75">
@@ -27,7 +27,7 @@ export default function BestInterior() {
             requirements, available space, and long-term usability.
           </p>
         </div>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           A Professional Interior Design Firm Built on Experience
         </h4>
         <div className="text-[#283132] text-base leading-6.75">
@@ -46,7 +46,7 @@ export default function BestInterior() {
             <b>handled with attention to detail and quality control</b>.
           </p>
         </div>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           Serving Dhaka and Nationwide Clients
         </h4>
         <div className="text-[#283132] text-base leading-6.75">
@@ -65,7 +65,7 @@ export default function BestInterior() {
             efficient over time.
           </p>
         </div>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           Designing Spaces That Balance Beauty and Function
         </h4>
         <div className="text-[#283132] text-base leading-6.75">
@@ -85,7 +85,7 @@ export default function BestInterior() {
         {/* First Part */}
 
         {/* Second Part */}
-        <h3 className="text-[#192324] text-[46px] font-bold leading-12.5 text-center pt-2.5 pb-5">
+        <h3 className="text-[#192324] text-[26px] md:text-4xl font-bold leading-12.5 text-center pt-2.5 pb-5">
           Complete Interior Design Services in Bangladesh
         </h3>
         <p className="text-[#283132] text-base leading-6.75 pb-6.75">
@@ -95,7 +95,7 @@ export default function BestInterior() {
           to understand their vision and turn it into a well-structured interior
           environment.
         </p>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           Thoughtful Home Interior Design Solutions
         </h4>
         <div className="text-[#283132] text-base leading-6.75">
@@ -117,7 +117,7 @@ export default function BestInterior() {
           <span className="text-[#283132] text-base">
             Our residential projects typically include:
           </span>
-          <ul className="list-disc text-btn pl-8 pt-2">
+          <ul className="list-disc text-btn text-base pl-8 pt-2">
             <li>
               <Link href={""} className="hover:text-[#283132]">
                 Bedroom interior planning
@@ -145,7 +145,7 @@ export default function BestInterior() {
             </li>
           </ul>
         </div>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           Office Interior Design That Improves Productivity
         </h4>
         <p className="text-[#283132] text-base leading-6.75 pb-6.75">
@@ -158,7 +158,7 @@ export default function BestInterior() {
           productivity while maintaining brand identity and visual
           professionalism.
         </p>
-        <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+        <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
           Commercial Interior Design for Customer Experience
         </h4>
         <div className="pb-6.75">
@@ -167,7 +167,7 @@ export default function BestInterior() {
             and improve user experience.{" "}
             <b>Our commercial design services include:</b>
           </span>
-          <ul className="list-disc text-btn pl-8 pt-2">
+          <ul className="list-disc text-btn text-base pl-8 pt-2">
             <li>
               <Link href={""} className="hover:text-[#283132]">
                 Showroom interior design
@@ -189,13 +189,13 @@ export default function BestInterior() {
               </Link>
             </li>
           </ul>
-          <p className="text-[#283132] pt-4">
+          <p className="text-[#283132] text-base pt-4">
             Each project is designed based on customer flow, functionality, and
             brand presentation.
           </p>
         </div>
         <div className="pb-6.75">
-          <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+          <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
             Specialized and Cultural Interior Projects
           </h4>
           <p className="text-[#283132] text-base leading-6.75">
@@ -207,7 +207,7 @@ export default function BestInterior() {
           </p>
         </div>
         <div className="pb-6.75">
-          <h4 className="text-[#192324] text-2xl font-bold leading-6.5 pb-2">
+          <h4 className="text-[#192324] text-xl md:text-[22px] lg:text-2xl font-bold leading-6.5 pb-2">
             Exterior and Landscape Design Services
           </h4>
           <p className="text-[#283132] text-base leading-6.75">
@@ -220,12 +220,12 @@ export default function BestInterior() {
             and usability of a property.
           </p>
         </div>
-        <div className="bg-[#E4E4E4] p-4 border-10 border-[#192324] flex justify-between items-center gap-5">
-          <div className="flex items-center justify-between gap-4.5">
-            <h4 className="text-[#192324] text-[27px] font-bold w-72.5">
+        <div className="bg-[#E4E4E4] p-4 border-10 border-[#192324] lg:flex justify-around items-center gap-5">
+          <div className="md:flex items-center justify-around gap-4 pb-10 lg:pb-0">
+            <h4 className="text-[#192324] text-[26px] md:text-[36px] font-bold md:w-72.5 pb-5 md:pb-0">
               Why Clients Choose Our Interior Design Team
             </h4>
-            <div className="w-73.75 text-[#283132] text-base">
+            <div className="md:w-73.75 text-[#283132] text-base">
               <p className="pb-6.5">
                 Clients prefer working with us because we balance creativity and
                 practicality. Our goal is to create interiors that remain
@@ -238,11 +238,11 @@ export default function BestInterior() {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-between gap-4.5">
-            <h4 className="text-[#192324] text-[27px] font-bold w-72.5">
+          <div className="md:flex items-center justify-around gap-4">
+            <h4 className="text-[#192324] text-[26px] md:text-[36px] font-bold md:w-72.5 pb-5 md:pb-0">
               A Trusted Interior Design Partner in Bangladesh
             </h4>
-            <div className="w-73.75 text-[#283132] text-base">
+            <div className="md:w-73.75 text-[#283132] text-base">
               <p className="pb-6.5">
                 Whether you are planning a new home, renovating an existing
                 apartment, designing an office, or building a commercial space,
@@ -259,6 +259,6 @@ export default function BestInterior() {
         </div>
         {/* Second Part */}
       </Container>
-    </>
+    </div>
   );
 }
