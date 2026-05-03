@@ -1,7 +1,6 @@
-// components/Card.jsx
 
 import Image from 'next/image'
-import { MdArrowOutward ,MdArrowForward} from "react-icons/md";
+
 
 export const Card = ({ image, title, description, showArrow = false }) => {
   return (

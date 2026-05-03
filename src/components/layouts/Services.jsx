@@ -4,6 +4,9 @@ import Image from "next/image";
 import { Card } from "../Card";
 import Service1 from '../../../public/services1.png'
 
+
+
+
 export const Services = () => {
   return (
     <section id="">
