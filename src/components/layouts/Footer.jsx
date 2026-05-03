@@ -10,9 +10,9 @@ export default function Footer() {
     <footer>
       <div className="pt-17.5 pb-10 bg-[#192324] mt-2">
         <Container>
-          <div className="flex justify-between items-center border-b border-white/10 pb-7.5">
+          <div className="flex flex-col gap-5 lg:gap-0 md:flex-row justify-between items-center border-b border-white/10 pb-7.5">
             <Image src="/footerLogo.png" alt='footerLogo' height={86.44} width={182}/>
-            <div className="flex gap-5 items-center">
+            <div className="flex flex-col md:flex-row gap-5 items-center">
               <h3 className='text-[20px] font-bold text-white'>Follow Our Socials</h3>
               <div className="socialIcons flex gap-2.5 items-center">
                 <FaFacebookF size={25} className='p-3 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
