@@ -1,13 +1,12 @@
 import React from "react";
 import Container from "../Container";
-import Image from "next/image";
 import { Card } from "../Card";
 import Service1 from "../../../public/services1.png";
 import Service2 from "../../../public/services2.png";
 import Service3 from "../../../public/services3.png";
-import Service4 from "../../../public/services3.png";
-import Service5 from "../../../public/services3.png";
-import Service6 from "../../../public/services3.png";
+import Service4 from "../../../public/services4.png";
+import Service5 from "../../../public/services5.png";
+import Service6 from "../../../public/services6.png";
 import Button from "../Button";
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -52,7 +51,7 @@ const servicesCard = [
 
 export const Services = () => {
   return (
-    <section id="">
+    <section id="services">
       <div className="py-12.5">
         <Container>
           <div className="">
@@ -74,10 +73,10 @@ export const Services = () => {
               needs.
             </p>
           </div>
-          <div className="py-5  grid lg:grid-cols-3 grid-cols-1 gap-6.25">
+          <div className="py-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6.25">
             {servicesCard.map((service, index) => (
               <Card
-                kay={index}
+                key={index}
                 image={service.image}
                 title={service.title}
                 description={service.description}
