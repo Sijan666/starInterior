@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Container from "../Container";
 import { CiVideoOn } from "react-icons/ci";
@@ -12,15 +13,15 @@ export default function Recentlyprojects() {
     {
       id: 1,
       title: "Modern Home Interior Project - Agargaon",
-      videoUrl: "https://www.youtube.com/embed/watch?v=jQ_itUk9QOA&t=5s",
+      videoUrl: "https://www.youtube.com/embed/HEMlIn6MDD8?si=wwuVd6-7ADygSxTK",
       thumbnail:
-        "https://i.ytimg.com/vi/x1R2JAAWrgM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBSC5kPQJQru7j9XSj4oDUEJXMqDw",
+        "https://i.ytimg.com/an_webp/HEMlIn6MDD8/mqdefault_6s.webp?du=3000&sqp=COSZ3s8G&rs=AOn4CLAbXFNf3PSoPpiRNmdafh9dlSkdrQ",
     },
     {
       id: 2,
       title: "Transforming Challenges Into Character",
-      videoUrl: "https://www.youtube.com/embed/2DiUL4LaPQ4",
-      thumbnail: "https://img.youtube.com/vi/2DiUL4LaPQ4/mqdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/VEU56oUA3VQ?si=rJ0GZx4gFvFN_rUr",
+      thumbnail: "https://i.ytimg.com/an_webp/VEU56oUA3VQ/mqdefault_6s.webp?du=3000&sqp=CPTD3s8G&rs=AOn4CLCD8xiK3EhyLBeZ_1qBEoZslKjTQg",
     },
     {
       id: 3,
@@ -64,7 +65,7 @@ export default function Recentlyprojects() {
   return (
     <section className="bg-[#F8F8F8] py-12.5 lg:py-25">
       <Container>
-        <h3 className="text-jprimary text-[30px] lg:text-[46px] font-bold lg:w-137.5 leading-7.5 lg:leading-[50.6px]">
+        <h3 className="text-jprimary text-[30px] lg:text-[46px] font-bold ">
           Our Recently Completed <span className="text-btn">Projects</span>
         </h3>
         <p className="text-[#283132] text-base font-bold leading-[27.2px] my-5 lg:w-330">
@@ -75,7 +76,7 @@ export default function Recentlyprojects() {
           interior design solutions for every space.
         </p>
         {/* Providing Each Project Review */}
-        <div className="flex items-center gap-x-5 group border-b border-[#EAF0EC] pb-5">
+        <div className="flex items-start gap-x-5 group border-b border-[#EAF0EC] py-5">
           <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
             <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
             <div className="relative z-10 flex items-center justify-center">
@@ -94,7 +95,7 @@ export default function Recentlyprojects() {
           </div>
         </div>
         {/* Every Inch Covered */}
-        <div className="flex items-center gap-x-5 group my-5 border-b border-[#EAF0EC] pb-5">
+        <div className="flex items-start gap-x-5 group my-5 border-b border-[#EAF0EC] pb-5">
           <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
             <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
             <div className="relative z-10  flex items-center justify-center">
@@ -117,10 +118,9 @@ export default function Recentlyprojects() {
           <h4 className="text-black text-base font-bold uppercase mb-3">
             PROJECT VIDEOS
           </h4>
-
           <div className="flex flex-col lg:flex-row border border-gray-200 overflow-hidden rounded-sm">
             {/* Left: List Container */}
-            <div className="w-full lg:w-[400px] bg-white border-r border-gray-200">
+            <div className="w-full lg:w-100 bg-white border-r border-gray-200">
               <div className="max-h-112.5 overflow-y-scroll custom-scrollbar bg-white">
                 {projects.map((project) => (
                   <button
@@ -147,7 +147,6 @@ export default function Recentlyprojects() {
                 ))}
               </div>
             </div>
-
             {/* Right: Video Player Section */}
             <div className="mt-5 lg:mt-0 bg-black aspect-video lg:h-112.5">
               <iframe

@@ -31,19 +31,16 @@
 }
 
 /* ====== */
-/* Scrollbar-er width set kora */
 .custom-scrollbar::-webkit-scrollbar {
   width: 10px;
   display: block;
 }
 
-/* Scrollbar track (pichone thake jeta) */
 .custom-scrollbar::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-left: 1px solid #e5e7eb;
 }
 
-/* Scrollbar thumb (jeta move kore) */
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 4px;
@@ -54,7 +51,6 @@
   background: #555;
 }
 
-/* Up/Down Arrows (Jemon image-e chilo) */
 .custom-scrollbar::-webkit-scrollbar-button {
   display: block;
   height: 12px;
