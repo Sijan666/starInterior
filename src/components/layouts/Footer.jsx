@@ -78,7 +78,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="py-10 flex justify-center gap-15 items-center">
+          <div className="py-10 flex flex-col md:flex-row justify-center gap-8 md:gap-15 items-center">
             <p className='text-white text-base'>Copyright © 2025 All Rights Reserved.</p>
             <div className="flex gap-2.5 items-center">
               <p className='text-btn text-base hover:text-[#144B39] duration-300 cursor-pointer'>Terms and Conditions</p>
