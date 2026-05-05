@@ -2,6 +2,9 @@ import React from 'react'
 import Container from '../Container'
 import Image from 'next/image'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FiNavigation, FiPhone } from 'react-icons/fi'
+import { TbMailOpened } from 'react-icons/tb'
+import Button from '../Button'
 
 
 export default function Footer() {
@@ -40,10 +43,31 @@ export default function Footer() {
                 <li className='text-base text-white cursor-pointer'>Hotel Interior Design</li>
               </ul>
             </div>
-            <div className="gridOne">
+            <div className="gridThree">
               <h3 className='font-bold text-[20px] text-white pb-5'>Contact Us</h3>
               <div className="flex gap-2.5 items-center">
-                
+                <FiPhone className='w-10 h-10 p-2.5 text-white rounded-full hover:border-white duration-300 border border-white/10' />
+                <p className='text-base text-white'>+88 01712529919</p>
+              </div>
+              <div className="flex gap-2.5 items-center mt-3.75">
+                <TbMailOpened  className='w-10 h-10 p-2.5 text-white rounded-full hover:border-white duration-300 border border-white/10' />
+                <p className='text-base text-white'>info.bestinteriordesign@gmail.com</p>
+              </div>
+              <div className="flex gap-2.5 items-center mt-3.75">
+                <FiNavigation   className='w-10 h-10 p-2.5 text-white rounded-full hover:border-white duration-300 border border-white/10' />
+                <div className="text">
+                  <p className='text-base text-white'>Level-02, House-31, Probal </p>
+                  <p className='text-base text-white'>Housing, Ring Road, Adabor,</p>
+                  <p className='text-base text-white'>Mohammadpur, Dhaka 1207</p>
+                  <Button btnText={'View Google Map'} className={'mt-1'}/>
+                </div>
+              </div>
+            </div>
+            <div className="gridFour">
+              <h3 className='font-bold text-[20px] text-white pb-5'>Get The Latest Trending News</h3>
+              <p className='text-base text-white leading-[27.2px]'>Your Dream Space Starts Here Get Exclusive Design Straight Your Inbox!</p>
+              <div className="mt-5">
+                <input type="email" placeholder='Enter your email' className='px-2.5 py-4 bg-white rounded-md'/>
               </div>
             </div>
           </div>
