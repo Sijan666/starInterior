@@ -24,6 +24,12 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <div className="grid grid-cols-4 mt-7.5">
+            <div className="gridOne">
+              <h3 className='font-bold text-[20px] text-white pb-5'>Information</h3>
+              <p className='text-base text-white leading-[27.2px]'>Best Interior Design’s unique perception of the available space renders sophisticated, ergonomic, and luxurious design that transforms a house into a home. The touch has been extended to a variety of platforms, including landscapes, office interiors, villas, communities, retail spaces, and even a single room.</p>
+            </div>
+          </div>
         </Container>
       </div>
     </footer>
