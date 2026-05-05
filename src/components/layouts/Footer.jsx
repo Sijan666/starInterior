@@ -6,6 +6,7 @@ import { FiNavigation, FiPhone } from 'react-icons/fi'
 import { TbMailOpened } from 'react-icons/tb'
 import Button from '../Button'
 import { BiRightArrow } from 'react-icons/bi'
+import { ArrowRight } from 'lucide-react'
 
 
 export default function Footer() {
@@ -28,11 +29,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 mt-7.5 gap-7.5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-7.5 pb-13.75 border-b border-white/10 gap-7.5">
+            {/* 1 */}
             <div className="gridOne">
               <h3 className='font-bold text-[20px] text-white pb-5'>Information</h3>
               <p className='text-base text-white leading-[27.2px]'>Best Interior Design’s unique perception of the available space renders sophisticated, ergonomic, and luxurious design that transforms a house into a home. The touch has been extended to a variety of platforms, including landscapes, office interiors, villas, communities, retail spaces, and even a single room.</p>
             </div>
+            {/* 2 */}
             <div className="gridTwo">
               <h3 className='font-bold text-[20px] text-white pb-5'>Services</h3>
               <ul className='flex flex-col gap-[7.5px]'>
@@ -44,6 +47,7 @@ export default function Footer() {
                 <li className='text-base text-white cursor-pointer'>Hotel Interior Design</li>
               </ul>
             </div>
+            {/* 3 */}
             <div className="gridThree">
               <h3 className='font-bold text-[20px] text-white pb-5'>Contact Us</h3>
               <div className="flex gap-2.5 items-center">
@@ -64,15 +68,22 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+            {/* 4 */}
             <div className="gridFour">
               <h3 className='font-bold text-[20px] text-white pb-5'>Get The Latest Trending News</h3>
               <p className='text-base text-white leading-[27.2px]'>Your Dream Space Starts Here Get Exclusive Design Straight Your Inbox!</p>
-              <div className="mt-5 flex items-center">
-                <input type="email" placeholder='Enter your email' className='px-2.5 py-4 bg-white  outline-none'/>
-                <div className="px-2.5 py-4 bg-white">
-                  <BiRightArrow/>
-                </div>
+              <div className="mt-5 relative inline-block w-full">
+                <input type="email" placeholder="Enter your email" className="w-full pl-4 pr-12 py-4 bg-white outline-none rounded-lg"/>
+                <ArrowRight className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
               </div>
+            </div>
+          </div>
+          <div className="py-10 flex justify-center gap-15 items-center">
+            <p className='text-white text-base'>Copyright © 2025 All Rights Reserved.</p>
+            <div className="flex gap-2.5 items-center">
+              <p className='text-btn text-base hover:text-[#144B39] duration-300 cursor-pointer'>Terms and Conditions</p>
+              <p className='text-base text-white'>||</p>
+              <p className='text-btn text-base hover:text-[#144B39] duration-300 cursor-pointer'>Privacy Policy</p>
             </div>
           </div>
         </Container>
