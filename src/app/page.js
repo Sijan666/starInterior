@@ -1,6 +1,7 @@
 import Agency from "@/components/layouts/Agency";
 import Banner from "@/components/layouts/Banner";
 import BestInterior from "@/components/layouts/BestInterior";
+import ContactMenu from "@/components/layouts/ContactMenu";
 import DreamHome from "@/components/layouts/DreamHome";
 import Recentlyprojects from "@/components/layouts/Recentlyprojects";
 import { Services } from "@/components/layouts/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <Agency />
       <DreamHome />
       <BestInterior/>
+      <ContactMenu/>
     </>
   );
 }
