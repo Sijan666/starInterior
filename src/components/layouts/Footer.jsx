@@ -5,6 +5,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaTwitter, FaYoutu
 import { FiNavigation, FiPhone } from 'react-icons/fi'
 import { TbMailOpened } from 'react-icons/tb'
 import Button from '../Button'
+import { BiRightArrow } from 'react-icons/bi'
 
 
 export default function Footer() {
@@ -66,8 +67,11 @@ export default function Footer() {
             <div className="gridFour">
               <h3 className='font-bold text-[20px] text-white pb-5'>Get The Latest Trending News</h3>
               <p className='text-base text-white leading-[27.2px]'>Your Dream Space Starts Here Get Exclusive Design Straight Your Inbox!</p>
-              <div className="mt-5">
-                <input type="email" placeholder='Enter your email' className='px-2.5 py-4 bg-white rounded-md'/>
+              <div className="mt-5 flex items-center">
+                <input type="email" placeholder='Enter your email' className='px-2.5 py-4 bg-white  outline-none'/>
+                <div className="px-2.5 py-4 bg-white">
+                  <BiRightArrow/>
+                </div>
               </div>
             </div>
           </div>
