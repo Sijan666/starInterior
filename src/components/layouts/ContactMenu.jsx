@@ -27,22 +27,13 @@ export default function ContactMenu() {
                 </Link>
             </div>
             {/* Phone Button */}
-            {/* <div className="group relative flex items-center">
-            <span className="absolute right-14 whitespace-nowrap rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-gray-900 shadow-md opacity-0 transition-opacity group-hover:opacity-100">
-                Call us
-            </span>
-            <button className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-lg transition-transform hover:scale-110">
-                <Phone size={24} />
-            </button>
-            </div> */}
             <div className="group relative flex items-center">
                 <span className="absolute right-14 whitespace-nowrap rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-gray-900 shadow-md opacity-0 transition-opacity group-hover:opacity-100">
                     Call us
                 </span>
                 <a 
                     href="tel: +8801828871277"
-                    className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-lg transition-transform hover:scale-110"
-                >
+                    className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-lg transition-transform hover:scale-110">
                     <Phone size={24} />
                 </a>
             </div>
@@ -60,19 +51,16 @@ export default function ContactMenu() {
             className="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#4A5DDF] text-white shadow-xl transition-transform hover:scale-105">
             <div
                 className={`absolute transition-all duration-300 ${
-                isOpen ? "rotate-90 opacity-0 scale-50" : "rotate-0 opacity-100 scale-100"
-                }`}>
+                isOpen ? "rotate-90 opacity-0 scale-50" : "rotate-0 opacity-100 scale-100"}`}>
                 <MessageCircle size={24} />
             </div>
             <div
                 className={`absolute transition-all duration-300 ${
-                isOpen ? "rotate-0 opacity-100 scale-100" : "-rotate-90 opacity-0 scale-50"
-                }`}>
+                isOpen ? "rotate-0 opacity-100 scale-100" : "-rotate-90 opacity-0 scale-50"}`}>
                 <X size={24} />
             </div>
             </button>
         </div>
-        
         </div>
     );
 }
