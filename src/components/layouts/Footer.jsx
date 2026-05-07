@@ -5,7 +5,6 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterest, FaTwitter, FaYoutu
 import { FiNavigation, FiPhone } from 'react-icons/fi'
 import { TbMailOpened } from 'react-icons/tb'
 import Button from '../Button'
-import { BiRightArrow } from 'react-icons/bi'
 import { ArrowRight } from 'lucide-react'
 
 
@@ -16,7 +15,7 @@ export default function Footer() {
       <div className="pt-17.5 pb-10 bg-jprimary mt-2">
         <Container>
           <div className="flex flex-col gap-5 lg:gap-0 md:flex-row justify-between items-center border-b border-white/10 pb-7.5">
-            <Image src="/footerLogo.png" alt='footerLogo' height={86.44} width={182}/>
+            <Image src="/Logo.webp" alt='footerLogo' height={120} width={150}/>
             <div className="flex flex-col md:flex-row gap-5 items-center">
               <h3 className='text-[20px] font-bold text-white'>Follow Our Socials</h3>
               <div className="socialIcons flex gap-2.5 items-center">
