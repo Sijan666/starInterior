@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from '../../../public/logo.png';
 import { FaArrowRight, FaBars, FaTimes } from 'react-icons/fa';
 import Button from '../Button';
 import Container from '../Container';
@@ -36,7 +35,7 @@ export default function Header() {
                     }`}>
                     {/* Logo */}
                     <div className="z-50 shrink-0 cursor-pointer">
-                        <Image src={logo} alt='logo' className="w-24 md:w-32 h-auto" />
+                        <Image src={'/logo.webp'} alt='logo' className="w-24 md:w-32 h-auto" height={450} width={580}/>
                     </div>
                     {/* lg nav */}
                     <nav className="hidden lg:flex items-center">
