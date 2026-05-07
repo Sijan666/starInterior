@@ -28,14 +28,14 @@ export default function Header() {
         >
             <Container>
                 <div 
-                    className={`relative flex items-center justify-between md:px-6 py-4 mx-auto transition-all duration-500 rounded-2xl ${
+                    className={`relative flex items-center justify-between md:px-6 px-2 py-4 mx-auto transition-all duration-500 rounded-2xl ${
                         scrolled 
                         ? 'bg-black/40 backdrop-blur-lg border border-white/20 shadow-lg shadow-black/50' 
                         : 'bg-transparent'
                     }`}>
                     {/* Logo */}
                     <div className="z-50 shrink-0 cursor-pointer">
-                        <Image src={'/logo.webp'} alt='logo' className="w-24 md:w-32 h-auto" height={450} width={580}/>
+                        <Image src={'/logo.webp'} alt='logo' className="w-24 md:w-32 h-auto" height={120} width={150}/>
                     </div>
                     {/* lg nav */}
                     <nav className="hidden lg:flex items-center">
