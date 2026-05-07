@@ -35,6 +35,17 @@ export default function ContactMenu() {
                 <Phone size={24} />
             </button>
             </div> */}
+            <div className="group relative flex items-center">
+                <span className="absolute right-14 whitespace-nowrap rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-gray-900 shadow-md opacity-0 transition-opacity group-hover:opacity-100">
+                    Call us
+                </span>
+                <a 
+                    href="tel: +8801828871277"
+                    className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-lg transition-transform hover:scale-110"
+                >
+                    <Phone size={24} />
+                </a>
+            </div>
         </div>
         {/* 2. Main Toggle Button */}
         <div className="group relative flex items-center">
