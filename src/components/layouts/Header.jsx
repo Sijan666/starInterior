@@ -62,7 +62,7 @@ export default function Header() {
                     {/* mobile nav */}
                     <button 
                         onClick={() => setIsMenuOpen(!isMenuOpen)} 
-                        className="lg:hidden z-50 text-white text-2xl focus:outline-none p-2"
+                        className="lg:hidden z-50 text-white text-2xl focus:outline-none "
                     >
                         {isMenuOpen ? <FaTimes /> : <FaBars />}
                     </button>
