@@ -65,7 +65,7 @@ export default function Recentlyprojects() {
   return (
     <section className="bg-[#F8F8F8] py-12.5 lg:py-25">
       <Container>
-        <h3 className="text-jprimary text-[30px] lg:text-[46px] font-bold ">
+        <h3 className="text-[#192324] text-[30px] lg:text-[46px] font-bold ">
           Our Recently Completed <span className="text-btn">Projects</span>
         </h3>
         <p className="text-[#283132] text-base font-bold leading-[27.2px] my-5 lg:w-330">
@@ -78,13 +78,13 @@ export default function Recentlyprojects() {
         {/* Providing Each Project Review */}
         <div className="flex items-start gap-x-5 group border-b border-[#EAF0EC] py-5">
           <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
-            <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
+            <span className="absolute inset-0 z-0 bg-[#192324] scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
             <div className="relative z-10 flex items-center justify-center">
               <CiVideoOn size={24} />
             </div>
           </div>
           <div className="">
-            <h4 className="text-jprimary text-xl font-bold">
+            <h4 className="text-[#192324] text-xl font-bold">
               Providing Each Project Review
             </h4>
             <p className="text-[#283132] text-base ">
@@ -97,13 +97,13 @@ export default function Recentlyprojects() {
         {/* Every Inch Covered */}
         <div className="flex items-start gap-x-5 group my-5 border-b border-[#EAF0EC] pb-5">
           <div className="relative h-14 w-14  flex items-center justify-center p-4.25 bg-[#EAF0EC] rounded-full overflow-hidden transition-colors duration-500 group-hover:text-white shrink-0">
-            <span className="absolute inset-0 z-0 bg-jprimary scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
+            <span className="absolute inset-0 z-0 bg-[#192324] scale-0 rounded-full transition-transform duration-500 ease-in-out group-hover:scale-150 origin-center"></span>
             <div className="relative z-10  flex items-center justify-center">
               <IoPlayForwardOutline size={24} />
             </div>
           </div>
           <div>
-            <h4 className="text-jprimary text-xl font-bold">
+            <h4 className="text-[#192324] text-xl font-bold">
               Every Inch Covered
             </h4>
             <p className="text-[#283132] text-base">
