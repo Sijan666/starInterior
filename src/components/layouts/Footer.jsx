@@ -19,12 +19,24 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row gap-5 items-center">
               <h3 className='text-[20px] font-bold text-white'>Follow Our Socials</h3>
               <div className="socialIcons flex gap-2.5 items-center">
-                <FaFacebookF  className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
-                <FaTwitter   className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
-                <FaInstagram   className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
-                <FaPinterest   className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
-                <FaLinkedinIn   className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
-                <FaYoutube   className='p-2.5 bg-white rounded-full text-btn h-10 w-10 cursor-pointer'/>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaFacebookF size={18} />
+                </div>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaTwitter size={18} />
+                </div>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaInstagram size={18} />
+                </div>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaPinterest size={18} />
+                </div>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaLinkedinIn size={18} />
+                </div>
+                <div className="flex items-center justify-center hover:bg-btn duration-300 hover:text-white h-10 w-10 bg-white rounded-full text-btn cursor-pointer">
+                  <FaYoutube size={18} />
+                </div>
               </div>
             </div>
           </div>
