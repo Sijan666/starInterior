@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <>
     <footer>
-      <div className="pt-17.5 pb-10 bg-jprimary mt-2">
+      <div className="pt-17.5 pb-10 bg-[#192324] mt-2">
         <Container>
           <div className="flex flex-col gap-5 lg:gap-0 md:flex-row justify-between items-center border-b border-white/10 pb-7.5">
             <Image src="/Logo.webp" alt='footerLogo' height={120} width={150}/>
